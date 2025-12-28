@@ -123,7 +123,7 @@ export default function LoginForm(): React.ReactNode {
           </button>
 
           <button className="flex items-center justify-center gap-2 border border-gray-300 rounded-full py-2 hover:bg-gray-50 transition">
-          <img
+            <img
               src="https://www.svgrepo.com/show/448234/linkedin.svg"
               alt="LinkedIn"
               className="h-5 w-5"
