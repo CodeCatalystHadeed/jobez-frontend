@@ -120,14 +120,32 @@ export default function LoginForm(): React.ReactNode {
           Continue with Google
         </button>
 
-        <button
-          type="button"
-          className="flex items-center justify-center gap-2 border border-gray-300 rounded-full py-2.5 text-sm hover:bg-gray-50 transition"
-        >
-          <FaLinkedinIn className="text-[#0077B5] text-lg" />
-          Continue with LinkedIn
-        </button>
-      </div>
+
+        {/* Social Buttons */}
+        <div className="grid grid-cols-1 gap-3">
+          <button className="flex items-center justify-center gap-2 border border-gray-300 rounded-full py-2 hover:bg-gray-50 transition">
+            <img
+              src="https://www.svgrepo.com/show/475656/google-color.svg"
+              alt="Google"
+              className="h-5 w-5"
+            />
+            <span className="text-gray-700 font-medium text-sm">
+              Continue with Google
+            </span>
+          </button>
+
+          <button className="flex items-center justify-center gap-2 border border-gray-300 rounded-full py-2 hover:bg-gray-50 transition">
+            <img
+              src="https://www.svgrepo.com/show/448234/linkedin.svg"
+              alt="LinkedIn"
+              className="h-5 w-5"
+            />
+            <span className="text-gray-700 font-medium text-sm">
+              Continue with LinkedIn
+            </span>
+          </button>
+        </div>
+
       </form>
     </Form>
   );
