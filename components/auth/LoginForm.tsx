@@ -164,6 +164,29 @@ export default function LoginForm({ userType = "candidate" }: LoginFormProps) {
             Continue with LinkedIn
           </button>
         </div>
+
+        {/* Legal Links */}
+        <p className="text-center text-xs text-gray-500 mt-6">
+          By continuing, you agree to our{" "}
+          <a
+            href="/terms-of-service"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#34A1CD] hover:underline"
+          >
+            Terms of Service
+          </a>{" "}
+          and{" "}
+          <a
+            href="/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#34A1CD] hover:underline"
+          >
+            Privacy Policy
+          </a>
+          .
+        </p>
       </form>
     </Form>
   );

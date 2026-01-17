@@ -196,11 +196,21 @@ export default function RegisterForm({
         {/* Terms */}
         <p className="text-xs text-gray-500 text-center">
           By signing up you agree to our{" "}
-          <a href="#" className="text-[#34A1CD] hover:underline">
-            Terms and Conditions
+          <a
+            href="/terms-of-service"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#34A1CD] hover:underline"
+          >
+            Terms of Service
           </a>{" "}
           and{" "}
-          <a href="#" className="text-[#34A1CD] hover:underline">
+          <a
+            href="/privacy-policy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[#34A1CD] hover:underline"
+          >
             Privacy Policy
           </a>
           .
