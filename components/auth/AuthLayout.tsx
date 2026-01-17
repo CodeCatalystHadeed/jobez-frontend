@@ -50,14 +50,7 @@ export default function AuthLayout({
         <div className="absolute top-[35%] right-[10%] w-[200px] h-[200px] bg-[#4FB3E8] opacity-10 rounded-full blur-[90px]" />
 
         {/* Grid pattern overlay for depth */}
-        <div
-          className="absolute inset-0 opacity-5"
-          style={{
-            backgroundImage:
-              "linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px)",
-            backgroundSize: "50px 50px",
-          }}
-        />
+        <div className="absolute inset-0 opacity-5 auth-grid-pattern" />
 
         {/* Main Content */}
         <div className="relative z-10 max-w-lg mx-auto">
